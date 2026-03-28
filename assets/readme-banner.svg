@@ -1,0 +1,113 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="48" x2="1188" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07120F"/>
+      <stop offset="0.5" stop-color="#0A1B19"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(252 118) rotate(35) scale(280 180)">
+      <stop stop-color="#14F1B8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#14F1B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1048 104) rotate(145) scale(260 170)">
+      <stop stop-color="#26B9FF" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#26B9FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="24" y="24" width="1232" height="372" rx="28" fill="url(#bg)"/>
+  <rect x="24.5" y="24.5" width="1231" height="371" rx="27.5" stroke="#19332E"/>
+  <rect x="40" y="40" width="1200" height="340" rx="22" stroke="#10312B" stroke-opacity="0.8"/>
+
+  <rect x="24" y="24" width="1232" height="372" rx="28" fill="url(#glowLeft)"/>
+  <rect x="24" y="24" width="1232" height="372" rx="28" fill="url(#glowRight)"/>
+
+  <g opacity="0.16">
+    <path d="M64 84H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M64 124H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M64 164H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M64 204H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M64 244H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M64 284H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M64 324H1216" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M124 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M204 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M284 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M364 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M444 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M524 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M604 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M684 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M764 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M844 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M924 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M1004 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M1084 56V364" stroke="#1AF0B7" stroke-width="1"/>
+    <path d="M1164 56V364" stroke="#1AF0B7" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <circle cx="964" cy="186" r="7" fill="#14F1B8"/>
+    <circle cx="1038" cy="136" r="6" fill="#14F1B8"/>
+    <circle cx="1112" cy="198" r="6" fill="#26B9FF"/>
+    <circle cx="986" cy="266" r="6" fill="#26B9FF"/>
+    <circle cx="1090" cy="282" r="7" fill="#14F1B8"/>
+    <path d="M964 186L1038 136L1112 198L1090 282L986 266L964 186Z" stroke="#18E5B0" stroke-width="2"/>
+    <path d="M964 186L1112 198" stroke="#18E5B0" stroke-width="2" stroke-opacity="0.65"/>
+    <path d="M1038 136L986 266" stroke="#18E5B0" stroke-width="2" stroke-opacity="0.65"/>
+    <path d="M1112 198L986 266" stroke="#26B9FF" stroke-width="2" stroke-opacity="0.55"/>
+  </g>
+
+  <rect x="80" y="78" width="236" height="34" rx="17" fill="#091816" stroke="#1A5047"/>
+  <circle cx="104" cy="95" r="5" fill="#14F1B8"/>
+  <text x="122" y="100" fill="#9DEBD5" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="2.4">WEB3 x AI SKILL INDEX</text>
+
+  <text x="80" y="178" fill="#E8FFF7" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2.5">AWESOME WEB3</text>
+  <text x="80" y="248" fill="#E8FFF7" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2.5">SKILLS</text>
+  <text x="82" y="294" fill="#8EB7AF" font-family="Inter, Arial, sans-serif" font-size="22">
+    Curated Web3 and AI-native skills for exchanges, protocols,
+  </text>
+  <text x="82" y="324" fill="#8EB7AF" font-family="Inter, Arial, sans-serif" font-size="22">
+    analytics, wallets, MCP tooling, and agent workflows.
+  </text>
+
+  <g>
+    <rect x="82" y="344" width="126" height="28" rx="14" fill="#091715" stroke="#164C43"/>
+    <text x="105" y="362" fill="#C9FFF0" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="1.6">855 SKILLS</text>
+
+    <rect x="220" y="344" width="146" height="28" rx="14" fill="#091715" stroke="#164C43"/>
+    <text x="244" y="362" fill="#C9FFF0" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="1.6">11 SOURCES</text>
+
+    <rect x="378" y="344" width="214" height="28" rx="14" fill="#091715" stroke="#164C43"/>
+    <text x="401" y="362" fill="#C9FFF0" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="1.6">ONCHAIN + CEX + AGENTS</text>
+  </g>
+
+  <g>
+    <rect x="836" y="68" width="344" height="244" rx="22" fill="#081412" stroke="#163E37"/>
+    <text x="866" y="102" fill="#88ECCD" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="2">LIVE REGISTRY SNAPSHOT</text>
+    <text x="1092" y="102" fill="#38C6FF" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="2">v0xA1</text>
+
+    <rect x="864" y="124" width="132" height="74" rx="16" fill="#0B1A18" stroke="#173B35"/>
+    <text x="882" y="148" fill="#77A99F" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.8">COMMUNITY</text>
+    <text x="882" y="184" fill="#EDFFF8" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">732</text>
+
+    <rect x="1020" y="124" width="132" height="74" rx="16" fill="#0B1A18" stroke="#173B35"/>
+    <text x="1038" y="148" fill="#77A99F" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.8">EXCHANGE</text>
+    <text x="1038" y="184" fill="#EDFFF8" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">115</text>
+
+    <rect x="864" y="214" width="132" height="74" rx="16" fill="#0B1A18" stroke="#173B35"/>
+    <text x="882" y="238" fill="#77A99F" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.8">DEFI</text>
+    <text x="882" y="274" fill="#EDFFF8" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">145</text>
+
+    <rect x="1020" y="214" width="132" height="74" rx="16" fill="#0B1A18" stroke="#173B35"/>
+    <text x="1038" y="238" fill="#77A99F" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.8">ANALYTICS</text>
+    <text x="1038" y="274" fill="#EDFFF8" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">71</text>
+  </g>
+</svg>
